@@ -1654,10 +1654,10 @@ public class Processing extends JFrame {                        //Processing Cla
     public final float hue(@NotNull Color c){ return hue(c.getRGB()); }
     public final float saturation(int c){
         return GMax*Color.RGBtoHSB((c>>16)&0xFF,(c>>8)&0xFF,c&0xFF,null)[1]; }
-    public final float saturation(@NotNull Color c){ return hue(c.getRGB()); }
+    public final float saturation(@NotNull Color c){ return saturation(c.getRGB()); }
     public final float brightness(int c){
         return BMax*Color.RGBtoHSB((c>>16)&0xFF,(c>>8)&0xFF,c&0xFF,null)[2]; }
-    public final float brightness(@NotNull Color c){ return hue(c.getRGB()); }
+    public final float brightness(@NotNull Color c){ return brightness(c.getRGB()); }
 
     @Contract("_, _, _ -> new") @NotNull                        //Pick Color between 2 Colors
     public static <value extends Number> color lerpColor(@NotNull Color c1, @NotNull Color c2, @NotNull value pct){
