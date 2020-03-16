@@ -4,9 +4,9 @@
 <p>
 Processing is a programming language focused mainly on visual arts and animations in GUI programming. It provides a variety of simple and efficient methods for 2D graphics rendering, image/font displaying, as well as file operations. If you are unfamiliar with Processing language, please refer to <a href="https://processing.org/">Processing's official website</a> for more information.
 <p>
-Jprocessing allows you to to program and run Processing code in any Java IDE without using the official <a href="https://processing.org/download/">Processing IDE</a>. It enables you to write Processing code in Java integrated development environment(IDE) you prefer, as mainstream Java IDEs usually offers more functionalities.
+Jprocessing allows you to program and run Processing code in any Java IDE without using the official <a href="https://processing.org/download/">Processing IDE</a>. It enables you to write Processing code in Java integrated development environment(IDE) you prefer, as mainstream Java IDEs usually offer more functionalities.
 <p>
-Note: There is also an official way to run Processing code in Java <a href="https://happycoding.io/tutorials/java/processing-in-java">using PApplet</a>. Jprocessing is an similar approach to it. With the difference being JProcessing only implements the most frequent-used methods from processing. Methods like 3D rendering, matrix operations, reading PDFs etc. are not included. Therefore, it performs just like a much simplified version of <code>PApplet</code> that only contains essential features.
+Note: There is also an official way to run Processing code in Java <a href="https://happycoding.io/tutorials/java/processing-in-java">using PApplet</a>. Jprocessing is a similar approach to it. With the difference being JProcessing only implements the most frequent-used methods from processing. Methods like 3D rendering, matrix operations, reading PDFs, etc. are not included. Therefore, it performs just like a simplified (lite) version of <code>PApplet</code> that only contains essential features, which takes less resources and space.
 
 <h3>What is JProcessing</h3>
 <p>
@@ -24,7 +24,7 @@ If you are confused about certain method(s), you can check out <a href="https://
 
 <h3>About Development</h3>
 <p>
-Yes, the source code is included and you are free to use, share and edit them. You are more than welcomed to contribute as well. Note that the source code for the official Processing IDE is also on the GitHub. I would say those are also worthy checking out if you are interested in developing Processing (links <a href="https://github.com/processing">here</a>). Note that JProcessing does not referred or related to code from Processing IDE by any means. It is a stand-along project started completely from scratch.
+Yes, the source code is included and you are free to use, share and edit them. You are more than welcomed to contribute as well. Note that the source code for the official Processing IDE is also on the GitHub. I would say those are also worthy of checking out if you are interested in developing Processing (links <a href="https://github.com/processing">here</a>). Note that JProcessing does not referred or related to code from Processing IDE by any means. It is a stand-along project started completely from scratch.
 <p>
 I personally positioning JProcessing as a simple add-on in java that allows the basic function of Processing to be used in Java programming. The main goal is to make it simple (single jar file), small (only includes essential and frequently used functions), and convenient to use. Since otherwise, it might be better of working directly on Processing IDE for adding advanced and complex features.
 <h6>
